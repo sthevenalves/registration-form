@@ -99,7 +99,7 @@ body {
     margin-bottom: 1.1rem;
 }
 
-.input-box input{
+.input-box input {
     margin: 0.3rem 0;
     padding: 0.4rem 1.2rem;
     border: none;
@@ -107,26 +107,26 @@ body {
     box-shadow: 1px 1px 6px #00000043;
 }
 
-.input-box input:hover{
+.input-box input:hover {
     background-color: oldlace;
 }
 
-.input-box input:focus-visible{
-    outline: 1px solid  #6c63ff;
+.input-box input:focus-visible {
+    outline: 1px solid #6c63ff;
 }
 
 .input-box label,
-.gender-titile{
+.gender-titile {
     font-size: 0.75rem;
     font-weight: 600;
     color: #000000c0;
 }
 
-.input-box::placeholder{
+.input-box::placeholder {
     color: #000000be;
 }
 
-.gender-group{
+.gender-group {
     display: flex;
     justify-content: space-between;
     margin-top: 0.62rem;
@@ -134,17 +134,17 @@ body {
 }
 
 
-.gender-input input{
+.gender-input input {
     margin-right: 0.35rem;
 }
 
-.gender-input label{
+.gender-input label {
     font-size: 0.81rem;
     font-weight: 600;
     color: #000000c0;
 }
 
-.continue-button button{
+.continue-button button {
     width: 100%;
     margin-top: 1rem;
     border: none;
@@ -154,16 +154,50 @@ body {
     cursor: pointer;
 }
 
-.continue-button button:hover{
+.continue-button button:hover {
     background-color: #6b53fff1;
 }
 
-.continue-button button a{
+.continue-button button a {
     text-decoration: none;
     font-size: 0.93rem;
     font-weight: 500;
     color: #fff;
 }
-@media screen and (max-width: 1230px){
-    
+
+@media screen and (max-width: 1230px) {
+    .form-img {
+        display: none;
+    }
+
+    .container {
+        width: 50%;
+    }
+
+    .form {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1064px) {
+    .container{
+        width: 90%;
+        height: auto;
+    }
+    .input-group{
+        flex-direction: column;
+        overflow-y: scroll;
+        flex-wrap: nowrap;
+        max-height: 10rem;
+        padding-right: 5rem;
+    }
+    .gender-inputs{
+        margin-top: 2rem;    
+    }
+    .gender-group{
+        flex-direction: column;
+    }
+    .gender-input {
+        margin-top: 0.5rem;
+    }
 }
