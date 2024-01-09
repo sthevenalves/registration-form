@@ -125,3 +125,45 @@ body {
 .input-box::placeholder{
     color: #000000be;
 }
+
+.gender-group{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.62rem;
+    padding: 0 0.5rem;
+}
+
+
+.gender-input input{
+    margin-right: 0.35rem;
+}
+
+.gender-input label{
+    font-size: 0.81rem;
+    font-weight: 600;
+    color: #000000c0;
+}
+
+.continue-button button{
+    width: 100%;
+    margin-top: 1rem;
+    border: none;
+    background-color: #6c63ff;
+    padding: 0.62rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.continue-button button:hover{
+    background-color: #6b53fff1;
+}
+
+.continue-button button a{
+    text-decoration: none;
+    font-size: 0.93rem;
+    font-weight: 500;
+    color: #fff;
+}
+@media screen and (max-width: 1230px){
+    
+}
