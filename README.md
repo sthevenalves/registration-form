@@ -7,8 +7,6 @@
  <ul>
    <li><a href="#proj">Projeto</a> 
      <li><a href="#desc">Descrição</a> 
-      <li><a href="#prer">Pré-requesito</a> 
-   <li><a href="#config">Configuração</a> 
  </ul> 
 
 <h2 id="proj">Projeto</h2>
@@ -27,18 +25,3 @@
 <p>A proposta deste projeto é fazer um formulário para cadastros de usuário responsivo com o intuito de praticar HTML e CSS.</p>
 
 <p>Cada tamanho da imagem anexada do projeto, representa um tamanho de tela diferente</p>
-
-<h2 id="prer">Pré-requisito</h2>
-
-<ul>
-  <li>Ter Git o instalado na sua máquina</li>
-</ul>
-
-<h2 id="config">Configuração</h2>
-  <ol>
-    <li>cd pasta-do-projeto</li>
-    <li>git clone</li>
-    
-        https://github.com/sthevenalves/registration-form.git
-  </ol>
-  
